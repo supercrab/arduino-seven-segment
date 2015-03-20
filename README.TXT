@@ -139,7 +139,7 @@ Website
 
 You can find the latest version of the library at 
 
-http://code.google.com/p/arduino-seven-segment
+https://github.com/supercrab/arduino-seven-segment
 
 License
 -------
