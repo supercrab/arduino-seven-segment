@@ -1,0 +1,23 @@
+
+VERSION 0.1
+===========
+
+DATE: 2011-12-29
+
+- Released to arduino forum for review http://www.arduino.cc/forum
+
+
+VERSION 0.2
+===========
+
+DATE: 2012-02-26
+
+- Made library compatible with the new Adruino 1.0
+
+VERSION 1.0
+===========
+
+DATE: 2014-11-04
+
+- Made single library compatible with both Arduino 1.0 and lower
+

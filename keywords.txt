@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For SevenSegment
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SevenSegment	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+clear	KEYWORD2
+allOn	KEYWORD2
+display	KEYWORD2
+printError	KEYWORD2
+setWiring	KEYWORD2
+setSegment	KEYWORD2
+print KEYWORD2
+printAlignedLeft	KEYWORD2
+printAlignedRight	KEYWORD2
+printNumber	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
