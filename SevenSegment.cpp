@@ -52,7 +52,9 @@
 
 */
 
-PROGMEM const prog_uchar segmentMap[] = {
+// Use this line for pre v1.0.5.8 (thanks by TomTheGeek) 
+//PROGMEM const prog_uchar segmentMap[] = {
+PROGMEM const unsigned char segmentMap[] = {
 	B0000000, // 032 SPACE
 	B0110000, // 033 !
 	B0100010, // 034 "
@@ -303,7 +305,8 @@ void SevenSegment::printNumber(uint16_t v){
 }
 
 void SevenSegment::printNumber(uint32_t v){
-
+
+
 	uint32_t r;
 	char buf[NUMBER_LENGTH + 2];
 
@@ -338,7 +341,8 @@ void SevenSegment::printNumber(uint32_t v){
 	// Display
 	print(buf);
 }
-
+
+
 
 /*
  * Print signed numbers
@@ -346,7 +350,8 @@ void SevenSegment::printNumber(uint32_t v){
 void SevenSegment::printNumber(int8_t v){
 	printNumber((int32_t) v);
 }
-
+
+
 void SevenSegment::printNumber(int16_t v){
 	printNumber((int32_t) v);
 }
@@ -837,7 +842,8 @@ void SevenSegment::putChar(uint8_t c){
 uint8_t SevenSegment::getMaskCursorIndex(){
 
 	uint8_t index = 0;
-
+
+
 	// Calculate mask element position in array
 	if (_wiring == LEFT_TO_RIGHT) {
 		for (uint8_t c = 0; c < _maskCursor; c++) {
