@@ -19,7 +19,7 @@ display	KEYWORD2
 printError	KEYWORD2
 setWiring	KEYWORD2
 setSegment	KEYWORD2
-print KEYWORD2
+print	KEYWORD2
 printAlignedLeft	KEYWORD2
 printAlignedRight	KEYWORD2
 printNumber	KEYWORD2
