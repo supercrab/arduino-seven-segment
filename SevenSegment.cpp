@@ -173,7 +173,7 @@ _device;
  * Table of supported drivers stored in program memory
  */
 PROGMEM const driver driverTable[] = {
-	{ "M5450", 34, false, true, true, false, false },
+	{ "M5450", 35, false, true, true, false, false },
 	{ "M5451", 35, false, true, true, false, false },
 	{ "MM5452", 32, false, true, true, false, true },
 	{ "MM5453", 33, false, true, true, false, false },
