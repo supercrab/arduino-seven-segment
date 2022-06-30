@@ -1,8 +1,8 @@
 /*
  * LCD/LED library for 7 segment displays
- * Date: Jan 2012
- * Author: M Mason
- * Website: http://code.google.com/p/arduino-seven-segment/
+ * Date: Jan 2012 (long time ago now!
+ * Author: supercrab
+ * Repo: https://github.com/supercrab/arduino-seven-segment
  *
  * This is a library for controlling 7 segment LCD or LED displays using
  * any of the following display drivers
@@ -15,23 +15,13 @@
  * BT-M512RD-DR1 (LED, 35 outputs)
  *
  * See the examples for usage
+ *
+ * PROBLEM?  Create an issue in GitHub and I will respond.
  */
+
 #include "SevenSegment.h"
 #include <avr/pgmspace.h> // Flash memory functions
 #include "Characters.h" // Character map
-
-/*
- * Character segment definitions are in the format GFEDCBA
- *
- *     __A__
- *    |     |
- *   F|     |B
- *    |__G__|
- *    |     |
- *   E|     |C
- *    |__D__|
- *
- */
 
  /*
 
