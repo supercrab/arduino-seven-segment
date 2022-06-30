@@ -1,3 +1,16 @@
+/*
+ * Character segment definitions are in the format GFEDCBA
+ *
+ *     __A__
+ *    |     |
+ *   F|     |B
+ *    |__G__|
+ *    |     |
+ *   E|     |C
+ *    |__D__|
+ *
+ */
+
 // Use this line for pre v1.0.5.8 (thanks by TomTheGeek) 
 //PROGMEM const prog_uchar segmentMap[] = {
 PROGMEM const unsigned char segmentMap[] = {
