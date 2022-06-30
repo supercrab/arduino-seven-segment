@@ -82,7 +82,6 @@ PROGMEM const driver driverTable[] = {
 // Driver table reference
 driver* pDriverTable = (driver*) &driverTable;
 
-
 #define NUMBER_LENGTH 4  // Number of digits in a number
 #define DRIVER_COUNT (sizeof(driverTable)/sizeof(driver)) // Number of driver chips supported
 #define MASK_COUNT 32 // Number of digits, symbols supported by screen mask
@@ -92,8 +91,6 @@ driver* pDriverTable = (driver*) &driverTable;
 
 #define FIRST_CHARACTER 32 // ASCII value of first character defined in segment mapping array
 #define LAST_CHARACTER 128 // ASCII value of last character defined in segment mapping array
-
-#include "SevenSegment.h"
 
 /*
  * Display constructor
