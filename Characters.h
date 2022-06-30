@@ -1,3 +1,6 @@
+#ifndef Characters_h
+#define Characters_h
+
 /*
  * Character segment definitions are in the format GFEDCBA
  *
@@ -112,3 +115,5 @@ PROGMEM const unsigned char segmentMap[] = {
 	B0000000, // 127 DEL
 	B1100011  // 128 Degree symbol
 };
+
+#endif
